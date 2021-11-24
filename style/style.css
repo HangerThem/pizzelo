@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap');
+
+:root {
+    --primary: #ff2a2a;
+    --secondary: #88aa00;
+    --gray: #e3dbdb;
+    --beige: #c8b7b7;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: table;
+    padding-top: 1rem;
+}
+
+.navbar--list--item {
+    display: table-cell;
+    vertical-align: middle;
+    padding-inline: 1.5rem;
+}
+
+.navbar--item {
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar--item:hover,
+.navbar--item:focus {
+    text-decoration: underline 0.1rem;
+}
+
+.logo {
+    padding-right: 2rem;
+}
+
+.active {
+    color: var(--primary);
+    font-weight: 900;
+}
+
+.slider-container {
+    max-height: 50vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 1rem;
+    color: var(--secondary);
+    grid-area: m;
+}
+
+.pizza--container {
+    text-align: center;
+    padding: 3rem;
+}
+
+.pizza--name {
+    font-size: 2rem;
+}
+
+.menu--container {
+    display: grid;
+    grid-template-areas:
+    "m m"
+    "p p"
+    "p p";
+}
+
+.gallery--img {
+    cursor: pointer;
+    height: 10rem;
+}
+
+.gallery--img:hover {
+    transform: scale(105%);
+    z-index: 5;
+}
+
+.image--container {
+    display: none;
+    z-index: 6;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(200%);
+    background-color: var(--gray);
+    padding: 0.3rem;
+    padding-bottom: 0;
+    border: var(--beige) solid 0.2rem;
+}
+
+.close {
+    position: absolute;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: var(--secondary);
+    width: min-content;
+    margin-bottom: 0.3rem;
+    padding-inline: 0.2rem;
+    border-radius: 5px;
+    right: 5px;
+    top: -30px;
+    cursor: pointer;
+}
+
+.close:hover {
+    background-color: var(--primary);
+}
+
+.gallery--container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.image--slot {
+    max-width: 25rem;
+}

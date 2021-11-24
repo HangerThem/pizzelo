@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="56.947113mm"
+   height="20.331884mm"
+   viewBox="0 0 59.79447 15.096424"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo_mdl.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.6825096"
+     inkscape:cx="95.284425"
+     inkscape:cy="114.23086"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-49.967407,-174.42719)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.9767px;line-height:3.25;font-family:Aldhabi;-inkscape-font-specification:Aldhabi;letter-spacing:0px;word-spacing:0px;stroke-width:0.686042"
+       x="66.133781"
+       y="186.35956"
+       id="text896"><tspan
+         sodipodi:role="line"
+         id="tspan894"
+         x="66.133781"
+         y="186.35956"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DFPOP1-W9;-inkscape-font-specification:DFPOP1-W9;stroke-width:0.686042">Pizzello</tspan></text>
+    <g
+       id="g956"
+       transform="matrix(2.5929195,0,0,2.5929195,-127.21788,-138.51314)">
+      <path
+         style="fill:#d3bc5f;stroke:#a0892c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 68.688764,120.46958 2.82176,6.85449 2.821758,-6.85449 c -1.895268,-0.97464 -3.776181,-0.95673 -5.643518,0 z"
+         id="path928"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#786721;stroke-width:0.53654;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 68.60255,120.49468 c 1.953671,-1.01192 3.891809,-0.97836 5.81591,0"
+         id="path940"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:#ff2a2a;stroke:#d40000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="circle942"
+         cx="72.520065"
+         cy="121.15587"
+         r="0.77624053" />
+      <path
+         style="fill:#88aa00;stroke:#668000;stroke-width:0.142876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 71.057279,121.40933 c -0.09656,-0.99788 0.277313,-1.15132 -0.720124,-1.09202 -0.502071,0.81043 -0.02873,0.70015 0.720124,1.09202 z"
+         id="path944"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:#88aa00;stroke:#668000;stroke-width:0.142876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 71.14122,123.13683 c 1.002422,0.0154 1.113167,0.4041 1.165583,-0.59372 -0.749318,-0.5894 -0.692567,-0.10671 -1.165583,0.59372 z"
+         id="path946"
+         sodipodi:nodetypes="ccc" />
+      <circle
+         style="fill:#ff2a2a;stroke:#d40000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="circle948"
+         cx="71.432617"
+         cy="124.34807"
+         r="0.77624053" />
+    </g>
+  </g>
+</svg>

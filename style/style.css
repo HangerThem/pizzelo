@@ -129,3 +129,18 @@ header {
 .image--slot {
     max-width: 25rem;
 }
+
+.about--text {
+    text-align: center;
+    margin-inline: 8rem;
+}
+
+.map {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact--text, .contact--text * {
+    text-align: center;
+}

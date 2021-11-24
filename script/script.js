@@ -13,7 +13,7 @@ images.forEach(image => {
         imageOpen.alt = alt
         container.style.display = 'block'
     })
-});
+})
 
 close.addEventListener('click', () => {
     container.style.display = 'none'

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/script.js" defer></script>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="fslightbox.js" defer></script> 
+
+    <title>Pizzallo • Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="navbar--item">
+                <img class="logo" src="./images/logo_mdl.svg" alt="logo">
+            </a>
+            <li class="navbar--list--item">
+                <a href="#" class="navbar--item active">Home</a>
+            </li>
+            <li class="navbar--list--item">
+                <a href="#menu" class="navbar--item">Menu</a>
+            </li>
+            <li class="navbar--list--item">
+                <a href="#about" class="navbar--item">About</a>
+            </li>
+            <li class="navbar--list--item">
+                <a href="#contact" class="navbar--item">Contact</a>
+            </li>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="swiffy-slider">
+                <ul class="slider-container">
+                    <li><img src="https://www.tapeteos.pl/data/media/918/big/pizza_022_fast_food__cebula__czosnek__pomidory.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="https://wallpapersdsc.net/wp-content/uploads/2015/11/Pizza_Widescreen4.jpg" style="max-width: 100%;height: auto;"></li>
+                    <li><img src="https://www.tapeteos.pl/data/media/918/big/pizza_010_fast_food.jpg" style="max-width: 100%;height: auto;"></li>
+                </ul>
+            
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+            
+                <div class="slider-indicators">
+                    <button class="active"></button>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="menu--container">
+                <h1 id="menu" class="title">MENU</h1>
+                <div class="pizza--container">
+                    <h4 class="pizza--name">Quattro Formaggi</h4>
+                    <p class="pizza--about">A hot take on a four cheese favourite: Pecorino, Italian blue cheese, mozzarella and Gran Milano cheese with tomato and rosemary. Drizzled with smoky chilli jam on a Romana base.</p>
+                </div>
+                <div class="pizza--container">
+                    <h4 class="pizza--name">Padana</h4>
+                    <p class="pizza--about">Goat’s cheese, mozzarella, caramelised onion, spinach, red onion, tomato and garlic oil on a Romana base.</p>
+                </div>
+                <div class="pizza--container">
+                    <h4 class="pizza--name">Margherita</h4>
+                    <p class="pizza--about">Mozzarella and tomato on a Romana base. Vegan option available.</p>
+                </div>
+                <div class="pizza--container">
+                    <h4 class="pizza--name">Porchetta</h4>
+                    <p class="pizza--about">Porchetta; slow-cooked pulled pork is a traditional part of many Italian feasts. We’ve put it on a white béchamel base with crispy pancetta, mozzarella, garlic oil, fennel seeds and Gran Milano cheese.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery--container">
+            <div data-image-container class="image--container">
+                <p data-close class="close">X</p>
+                <img data-image-slot class="image--slot"/>
+            </div>
+            <div>
+                <img data-image src="http://yesofcorsa.com/wp-content/uploads/2015/07/4271_pizza.jpg" alt="pizza" class="gallery--img">
+                <img data-image src="https://wallup.net/wp-content/uploads/2017/11/17/371885-food-pizza.jpg" alt="pizza" class="gallery--img">
+                <img data-image src="https://wallpapertag.com/wallpaper/full/4/0/6/398157-vertical-pizza-wallpaper-1920x1080-images.jpg" alt="pizza" class="gallery--img">    
+                <img data-image src="https://3.bp.blogspot.com/-BwdVbtCv8O0/Vzkw5k_BeUI/AAAAAAAABAY/FOphy1-SGYg07i0vRq932zac0JlHy60FACLcB/s1600/Delicious-Pizza-HD-Wallpaper.jpg" alt="pizza" class="gallery--img">    
+                <img data-image src="https://picfiles.alphacoders.com/303/303287.jpg" alt="pizza" class="gallery--img">    
+            </div>
+        </section>
+
+        <section>
+            <h1 id="about" class="title">ABOUT</h1>
+            <p></p>
+        </section>
+    </main>
+
+</body>
+</html>

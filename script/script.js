@@ -12,9 +12,9 @@ images.forEach(image => {
         imageOpen.src = source
         imageOpen.alt = alt
         container.style.display = 'block'
-    })
-})
+    });
+});
 
 close.addEventListener('click', () => {
     container.style.display = 'none'
-})
+});
